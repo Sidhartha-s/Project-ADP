@@ -1,0 +1,247 @@
+button{
+	margin-left: 1rem;
+	background-color: white;
+	border: none;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	font-weight: bold;
+}
+.episode{
+	text-align: center;
+}
+.episode button{
+	margin-top: 2rem;
+}
+
+.related{
+	margin-top: 2rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer nav li {
+  margin-left: 1rem;
+}
+
+footer nav li:first-child {
+  margin-left: 0;
+}
+
+footer nav a {
+  color: white;
+}
+
+footer nav a:hover{
+	color: rgb(100, 170, 300);
+	transition: color 0.3s ease-in-out;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+button:hover{
+	background-color: rgb(10, 40, 70);
+	color: white;
+	transition: background-color 0.3s ease-in-out;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgb(25, 25, 25);
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 1rem;
+}
+header{
+	background: rgb(35, 35, 35);
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+}
+header form input[type="search"]{
+	padding: 0.5rem;
+	border: none;
+	border-radius: 1rem;
+	background-color: white;
+}
+header form button[type="submit"]{
+	padding: 0.5rem 1rem;
+	margin-left: 0.5rem;
+	border: none;
+	border-radius: 1rem;
+	background-color: white;
+	font-weight: bold;
+	transition: background-color 0.3s ease-in-out;
+}
+header form button:hover{
+	background-color: rgb(10, 40, 70);
+	color: white;
+}
+h1{
+	text-align: center;
+	text-decoration: none;
+	color: rgb(100, 170, 300);
+	margin-left: 1rem;
+}
+
+h1:hover{
+	transform: scale(1.2);
+	transition: transform 0.35s ease-in-out;
+}
+
+img{
+	margin: 1rem;
+	padding: 1rem;
+}
+img:hover{
+	background-color: rgb(10, 40, 70);
+	color: white;
+}
+ul{
+	list-style: none;
+}
+.login-form {
+  	max-width: 500px;
+  	margin: 0 auto;
+  	padding: 20px;
+  	background-color: rgb(50, 50, 50);
+  	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+  	font-size: 28px;
+  	margin-bottom: 20px;
+}
+
+.login-form label {
+  	display: block;
+  	font-size: 16px;
+  	font-weight: bold;
+  	margin-bottom: 5px;
+  	color: rgb(100, 170, 300);
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  	width: 100%;
+  	padding: 10px;
+  	margin-bottom: 20px;
+  	border: 1px solid #CCCCCC;
+  	border-radius: 5px;
+  	font-size: 16px;
+}
+
+.login-form button {
+  	display: block;
+  	width: 100%;
+  	padding: 10px;
+  	background-color: #4285F4;
+  	color: #FFFFFF;
+  	border: none;
+  	border-radius: 5px;
+  	font-size: 18px;
+  	font-weight: bold;
+  	cursor: pointer;
+  	transition: background-color 0.3s ease-in-out;
+}
+
+.login-form button:hover {
+  	background-color: #3367D6;
+}
+
+.login-form fieldset {
+  	border: none;
+  	margin-bottom: 20px;
+}
+
+.login-form legend {
+  	font-size: 20px;
+  	font-weight: bold;
+  	margin-bottom: 10px;
+}
+
+/*::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(10, 40, 120);
+  border: none;
+  border-radius: 1rem;
+}*/
+
+.search {
+  	margin-left: 1rem;
+	background-color: white;
+	border: none;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	font-weight: bold;
+}
+
+.search:hover {
+  background-color: rgb(10, 40, 70);
+  color: white;
+}
+
+#input{
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid rgb(100, 170, 300);
+  background-color: rgb(70, 70, 70);
+  color: rgb(100, 170, 300);
+}
+
+#input:focus {outline: 0px}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: rgb(70, 70, 70);
+  min-width: 230px;
+  border: 1px solid #ddd;
+}
+
+.dropdowncontent a {
+  color: rgb(100, 170, 300);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdowncontent a:hover {
+	background-color: rgb(50, 50, 50);
+	transition: background-color 0.3s ease-in-out;
+}
+
+.show {display:block;}
+
+
